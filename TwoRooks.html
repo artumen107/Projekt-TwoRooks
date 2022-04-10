@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two Rooks</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="styleSheet" href="Style.css">
+<script type="text/javascript" src="Functions.js"></script>
+
+</head>
+
+
+<body>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+  <!-- &times; to krzyzyk !-->
+    <span class="close">&times;</span>
+    <p>KRÓL ZOSTAŁ ZMATOWANY!</p>
+  </div>
+
+</div>
+
+<div id="plansza" class="grid-container">
+  <div class="grid-item-desc" id="blank1" style="font-weight:bold; color: red; font-size: 18px;">WHITE</div>
+  <div class="grid-item-desc" id="01">A</div>
+  <div class="grid-item-desc" id="02">B</div>
+  <div class="grid-item-desc" id="03">C</div>
+  <div class="grid-item-desc" id="04">D</div>
+  <div class="grid-item-desc" id="05">E</div>
+  <div class="grid-item-desc" id="06">F</div>
+  <div class="grid-item-desc" id="07">G</div>
+  <div class="grid-item-desc" id="08">H</div>
+ 
+  
+  <div class="grid-item-desc" id="09">8</div>
+  <div class="grid-item-white" id="A8"></div>
+  <div class="grid-item-black" id="B8"></div>
+  <div class="grid-item-white" id="C8"></div>
+  <div class="grid-item-black" id="D8"></div>
+  <div class="grid-item-white" id="E8"></div>
+  <div class="grid-item-black" id="F8"></div>
+  <div class="grid-item-white" id="G8"></div>
+  <div class="grid-item-black" id="H8"></div>
+
+  <div class="grid-item-desc" id="010">7</div>							   
+  <div class="grid-item-black" id="A7"></div>
+  <div class="grid-item-white" id="B7"></div>
+  <div class="grid-item-black" id="C7"></div>
+  <div class="grid-item-white" id="D7"></div>
+  <div class="grid-item-black" id="E7"></div>
+  <div class="grid-item-white" id="F7"></div>
+  <div class="grid-item-black" id="G7"></div>
+  <div class="grid-item-white" id="H7"></div>
+  
+  <div class="grid-item-desc" id="011">6</div>	
+  <div class="grid-item-white" id="A6"></div>
+  <div class="grid-item-black" id="B6"></div>
+  <div class="grid-item-white" id="C6"></div>
+  <div class="grid-item-black" id="D6"></div>
+  <div class="grid-item-white" id="E6"></div>
+  <div class="grid-item-black" id="F6"></div>
+  <div class="grid-item-white" id="G6"></div>
+  <div class="grid-item-black" id="H6"></div>
+  
+  <div class="grid-item-desc" id="012">5</div>
+  <div class="grid-item-black" id="A5"></div>
+  <div class="grid-item-white" id="B5"></div>
+  <div class="grid-item-black" id="C5"></div>
+  <div class="grid-item-white" id="D5"></div>
+  <div class="grid-item-black" id="E5"></div>
+  <div class="grid-item-white" id="F5"></div>
+  <div class="grid-item-black" id="G5"></div>
+  <div class="grid-item-white" id="H5"></div>
+  
+  <div class="grid-item-desc" id="013">4</div>
+  <div class="grid-item-white" id="A4"></div>
+  <div class="grid-item-black" id="B4"></div>
+  <div class="grid-item-white" id="C4"></div>
+  <div class="grid-item-black" id="D4"></div>
+  <div class="grid-item-white" id="E4"></div>
+  <div class="grid-item-black" id="F4"></div>
+  <div class="grid-item-white" id="G4"></div>
+  <div class="grid-item-black" id="H4"></div>
+  
+  <div class="grid-item-desc" id="014">3</div>
+  <div class="grid-item-black" id="A3"></div>
+  <div class="grid-item-white" id="B3"></div>
+  <div class="grid-item-black" id="C3"></div>
+  <div class="grid-item-white" id="D3"></div>
+  <div class="grid-item-black" id="E3"></div>
+  <div class="grid-item-white" id="F3"></div>
+  <div class="grid-item-black" id="G3"></div>
+  <div class="grid-item-white" id="H3"></div>
+  
+  <div class="grid-item-desc" id="015">2</div>
+  <div class="grid-item-white" id="A2"></div>
+  <div class="grid-item-black" id="B2"></div>
+  <div class="grid-item-white" id="C2"></div>
+  <div class="grid-item-black" id="D2"></div>
+  <div class="grid-item-white" id="E2"></div>
+  <div class="grid-item-black" id="F2"></div>
+  <div class="grid-item-white" id="G2"></div>
+  <div class="grid-item-black" id="H2"></div>
+  
+   <div class="grid-item-desc" id="016">1</div>
+  <div class="grid-item-black" id="A1"></div>
+  <div class="grid-item-white" id="B1"></div>
+  <div class="grid-item-black" id="C1"></div>
+  <div class="grid-item-white" id="D1"></div>
+  <div class="grid-item-black" id="E1"></div>
+  <div class="grid-item-white" id="F1"></div>
+  <div class="grid-item-black" id="G1"></div>
+  <div class="grid-item-white" id="H1"></div>
+  
+</div>
+
+
+
+</body>
+</html>
